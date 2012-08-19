@@ -54,7 +54,7 @@
 # SET UP THE EXPORT VARIABLES:
         export TERM=xterm
         export PAGER=/usr/bin/less
-#        export HOME=/export/home/wtsang
+#        export HOME=/export/home/hunter
         export HISTCONTROL=ignoredups
         export HISTFILE=$HOME/.history
 
@@ -89,7 +89,7 @@ esac
 
 
 # GIT COMPLETION
-source ~/Dropbox/wtsang/dotfiles/.bash/completion/git-completion.bash
+source ~/Dropbox/hunter/dotfiles/.bash/completion/git-completion.bash
 
 function minutes_since_last_commit {
   now=`date +%s`
